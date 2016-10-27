@@ -15,9 +15,7 @@ namespace ODBCClient
             var userName = "FILL_YOUR_USERNAME_HERE";
             var password = "FILL_YOUR_PASSWORD_HERE";
             var dnsName = "FILL_YOUR_CLUSTERNAME_HERE";
-
-            var programFilesDir = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles);
-
+        
             const string defaultAgentPrefix = "HDInsightODBClient";
             const int totalIteration = 1;
 
